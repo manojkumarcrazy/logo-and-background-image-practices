@@ -1,0 +1,30 @@
+html {
+   min-height:100% ;
+   background-image: url(./images/witcher.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+ }
+ 
+.nav{
+    margin-left: 50px;
+    padding-left: 50px;
+    color:brown;
+}
+a{ 
+    color: rgb(101, 42, 73);
+    cursor: pointer;
+    text-decoration: none;
+
+}
+a:visited{
+    color: rgb(236, 198, 9);
+
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+a:active{
+    color:gold ;
+}
